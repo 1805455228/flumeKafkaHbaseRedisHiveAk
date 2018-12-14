@@ -3,16 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>atguigu-bigdataf</artifactId>
-        <groupId>com.atguigu</groupId>
+        <artifactId>bigdataf</artifactId>
+        <groupId>bigdata</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>atguigu-bigdata-hbase</artifactId>
+    <artifactId>bigdata-hbase</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>atguigu-bigdata-hbase-mr</module>
+        <module>bigdata-hbase-mr</module>
     </modules>
 
 
