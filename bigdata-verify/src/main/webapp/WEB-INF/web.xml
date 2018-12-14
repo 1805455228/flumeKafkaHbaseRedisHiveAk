@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+   <servlet>
+       <servlet-name>SendCode</servlet-name>
+       <servlet-class>com.atguigu.redis.SendCode</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>SendCode</servlet-name>
+        <url-pattern>/SendCode</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckCode</servlet-name>
+        <servlet-class>com.atguigu.redis.CheckCode</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckCode</servlet-name>
+        <url-pattern>/CheckCode</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SecondKillServlet</servlet-name>
+        <servlet-class>com.atguigu.redis.SecondKillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondKillServlet</servlet-name>
+        <url-pattern>/secondKillServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
